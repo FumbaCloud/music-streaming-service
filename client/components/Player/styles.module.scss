@@ -1,0 +1,13 @@
+.box {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 285px 1fr 150px;
+  align-items: center;
+  padding: 8px;
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  gap: 8px;
+  background-color: lightgray;
+}

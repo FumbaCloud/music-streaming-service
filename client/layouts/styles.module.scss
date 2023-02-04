@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 285px 1fr;
+}
+
+.aside {
+  min-height: calc(100vh - 24px);
+  padding: 0 8px 8px 0;
+  border-right: 1px solid lightgray;
+}
+
+.main {
+  padding: 8px;
+}
+
+.title {
+  margin: 0 0 16px;
+}

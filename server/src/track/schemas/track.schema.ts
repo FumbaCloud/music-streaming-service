@@ -9,7 +9,7 @@ export class Track {
   name: string;
 
   @Prop()
-  artist: string;
+  author: string;
 
   @Prop()
   text: string;
