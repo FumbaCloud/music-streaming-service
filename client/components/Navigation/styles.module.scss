@@ -1,0 +1,19 @@
+.nav {
+  display: grid;
+  gap: 12px;
+}
+
+.navItem {
+  padding: 8px;
+  color: inherit;
+  text-decoration: none;
+
+  &[data-active="true"] {
+    color: dodgerblue;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: lightgray;
+  }
+}
